@@ -31,7 +31,7 @@ function OurWork() {
               className="ourwork__image"
             />
             <img
-              src="/public/img/gallery-img-05.02ff04a6a3436acc970b.jpeg"
+              src="/img/gallery-img-05.02ff04a6a3436acc970b.jpeg"
               alt=""
               className="ourwork__image"
             />
