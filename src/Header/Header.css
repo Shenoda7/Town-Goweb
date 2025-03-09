@@ -1,0 +1,96 @@
+.header {
+  background: url("/public/img/the-town-bg-01.4fb1a448e9b51ceb326a.png") center
+    center no-repeat;
+  height: 100vh;
+  color: var(--color-white);
+  position: relative;
+}
+
+.header__nav {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  font-size: 22px; /* here i will use px cuz i don't wanna change it's size on different screen sizes */
+  font-weight: 700;
+}
+.header__logo {
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.header__nav-item {
+  list-style: none;
+}
+.header__nav-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+.header__nav-link:hover,
+.header__logo:hover,
+.active {
+  color: var(--color-primary);
+}
+
+/***********************************/
+/********* HERO SECTION ************/
+/***********************************/
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero__body {
+  display: flex;
+  flex-direction: column;
+}
+.hero__main--heading {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+.hero__secondary--heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.hero__tertiary--heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.author {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/******************************/
+/******* MEDIA QUERIES ********/
+/******************************/
+@media only screen and (max-width: 900px) {
+  .header__nav-list {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}

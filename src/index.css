@@ -1,0 +1,70 @@
+:root {
+  font-size: 62.5%;
+
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    "Noto Sans",
+    "Liberation Sans",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+
+  --color-white: #fff;
+  --color-primary: #4169e1;
+  --color-dark-grey: #777;
+  --color-light-grey: #cdc1c1;
+  --color-lighter-grey: #c6c7c8;
+  --color-btn-primary: #0d6efd;
+  --color-btn-primary-dark: #0b5ed7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 1350px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 3rem;
+  }
+  :root {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  :root {
+    font-size: 50%;
+  }
+}
