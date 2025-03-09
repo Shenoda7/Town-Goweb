@@ -11,27 +11,27 @@ function OurWork() {
           </p>
           <div className="ourwork__images">
             <img
-              src="/public/img/gallery-img-01.f25f9d70ba9c0d823dfc.png"
+              src="/img/gallery-img-01.f25f9d70ba9c0d823dfc.jpeg"
               alt=""
               className="ourwork__image"
             />
             <img
-              src="/public/img/gallery-img-02.4fd85b73e5d68c8e3858.png"
+              src="/img/gallery-img-02.4fd85b73e5d68c8e3858.jpeg"
               alt=""
               className="ourwork__image"
             />
             <img
-              src="/public/img/gallery-img-03.f869b983869a8ee411c5.png"
+              src="/img/gallery-img-03.f869b983869a8ee411c5.jpeg"
               alt=""
               className="ourwork__image"
             />
             <img
-              src="/public/img/gallery-img-04.a5c52c8ad07dbb52d80b.png"
+              src="/img/gallery-img-04.a5c52c8ad07dbb52d80b.jpeg"
               alt=""
               className="ourwork__image"
             />
             <img
-              src="/public/img/gallery-img-05.02ff04a6a3436acc970b.png"
+              src="/public/img/gallery-img-05.02ff04a6a3436acc970b.jpeg"
               alt=""
               className="ourwork__image"
             />

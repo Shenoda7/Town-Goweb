@@ -6,7 +6,7 @@ function Introduction() {
       <section className="intro container">
         <div className="intro__image-holder">
           <img
-            src="/public/img/the-town-01.4ca14cd0d1ec4453b5eb.png"
+            src="/img/the-town-01.4ca14cd0d1ec4453b5eb.jpeg"
             alt=""
             className="intro__img"
           />
